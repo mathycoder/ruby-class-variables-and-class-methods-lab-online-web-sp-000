@@ -14,6 +14,7 @@ class Song
   end 
   
   def self.genre_count
+    histogram = {}
     
   end 
   
