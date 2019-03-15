@@ -22,6 +22,7 @@ class Song
     @@genres.each do |genre|
       if !(genres.include?(genre))
         genres << genre 
+      end 
     end 
     genres 
   end 
