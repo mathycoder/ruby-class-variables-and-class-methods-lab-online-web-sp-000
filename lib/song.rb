@@ -22,6 +22,7 @@ class Song
         histogram[genre]+=1 
       end 
     end 
+    histogram 
   end 
   
   def self.count 
