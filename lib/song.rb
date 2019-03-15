@@ -25,7 +25,7 @@ class Song
     histogram 
   end 
  
-  def self.artist
+  def self.artist_count
     histogram = {}
     @@artists.each do |artist|
       if !(histogram.key?(artist))
