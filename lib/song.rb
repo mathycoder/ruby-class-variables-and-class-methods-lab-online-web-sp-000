@@ -16,7 +16,11 @@ class Song
   def self.genre_count
     histogram = {}
     @@genres.each do |genre|
-      
+      if !(histogram.key?(genre))
+        histogram[genre] = 1 
+      else
+        histogram[genre]+=1 
+      end 
     end 
   end 
   
